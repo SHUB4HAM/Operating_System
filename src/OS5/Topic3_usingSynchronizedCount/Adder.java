@@ -1,4 +1,4 @@
-package OS5.Topic1;
+package OS5.Topic3_usingSynchronizedCount;
 
 public class Adder implements Runnable{
     private Count count;
@@ -8,7 +8,9 @@ public class Adder implements Runnable{
     @Override
     public void run(){
         for(int i=1; i<=1000; i++){
-            count.addValue(i);
+            synchronized (count) {
+                count.addValue(i);
+            }
         }
     }
 }

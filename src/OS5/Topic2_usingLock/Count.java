@@ -1,4 +1,4 @@
-package OS5.Topic1;
+package OS5.Topic2_usingLock;
 
 public class Count {
     int value = 0;

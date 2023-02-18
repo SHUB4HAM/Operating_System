@@ -1,4 +1,4 @@
-package OS5.Topic1;
+package OS5.Topic3_usingSynchronizedCount;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

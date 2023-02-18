@@ -1,4 +1,4 @@
-package OS5.Topic1;
+package OS5.Topic_4_SyncMethod;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {

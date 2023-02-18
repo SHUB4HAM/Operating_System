@@ -1,8 +1,8 @@
-package OS5.Topic1;
+package OS5.Topic_4_SyncMethod;
 
 public class Count {
     int value = 0;
-    public void addValue(int val){
+    public synchronized void addValue(int val){
         this.value += val;
     }
     public int getValue(){

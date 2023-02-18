@@ -1,4 +1,4 @@
-package OS5.Topic1;
+package OS5.Topic_4_SyncMethod;
 
 public class Substractor implements Runnable {
     private Count count;
